@@ -1,0 +1,86 @@
+body {
+    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images-1536x1024.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    /* Header Styles */
+    header {
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    }
+    body {
+    background-color: azure;
+    }
+    /* Navigation */
+    nav {
+    background-color : black;
+    padding: 10px;
+    text-align: center;
+    }
+    nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    }
+    /* Catalog Grid */
+    .catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    }
+    .catalog-item {
+        background-color: lightblue;
+    border: 1px solid  lightslategray;
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    width: 270px;
+    justify-content: space-between;
+   
+    }
+    /* Cart */
+    .cart {
+    padding: 10px;
+    }
+    .cart-item {
+        background-color: chartreuse;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        }
+        /* Form */
+        .form-container {
+            background-color: cornsilk;
+            
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        }
+        .form-box {
+            background-color:hotpink;
+        border: 1px solid rosybrown;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+        }
+        .form-box input[type="text"], .form-box input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        }
+        .form-box button {
+        width: 100%;
+        padding: 10px;
+        background-color: green;
+        color: #fff;
+        border: none;
+        }
+        
+    
